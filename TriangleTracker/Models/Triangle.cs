@@ -12,7 +12,7 @@ namespace Triangle
       {
         return "this is an equilateral triangle";
       } 
-      else if (a == b && a != c || a == c && a != b)
+      else if (a == b && a != c || a == c && a != b || b == c && b != a)
       {
         return "this is an isosceles triangle";
       }
