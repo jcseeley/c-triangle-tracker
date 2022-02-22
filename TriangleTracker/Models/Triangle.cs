@@ -8,10 +8,10 @@ namespace Triangle
       {
         return "not a triangle";
       }
-      // else if (a==b && b==c)
-      // {
-      //   return "this is an equilateral triangle";
-      // }
+      else if (a==b && b==c)
+      {
+        return "this is an equilateral triangle";
+      }
       else
       {
         return "is a triangle";
