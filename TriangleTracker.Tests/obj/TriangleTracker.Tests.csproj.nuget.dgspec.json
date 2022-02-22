@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jase/Documents/Epicodus/TriangleTracker.Solution/TriangleTracker.Tests/TriangleTracker.Tests.csproj": {}
+    "/Users/jase/Documents/Epicodus/TriangleTracker.Solution/triangletracker.tests/TriangleTracker.Tests.csproj": {}
   },
   "projects": {
-    "/Users/jase/Documents/Epicodus/TriangleTracker.Solution/TriangleTracker.Tests/TriangleTracker.Tests.csproj": {
+    "/Users/jase/Documents/Epicodus/TriangleTracker.Solution/triangletracker.tests/TriangleTracker.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jase/Documents/Epicodus/TriangleTracker.Solution/TriangleTracker.Tests/TriangleTracker.Tests.csproj",
+        "projectUniqueName": "/Users/jase/Documents/Epicodus/TriangleTracker.Solution/triangletracker.tests/TriangleTracker.Tests.csproj",
         "projectName": "TriangleTracker.Tests",
-        "projectPath": "/Users/jase/Documents/Epicodus/TriangleTracker.Solution/TriangleTracker.Tests/TriangleTracker.Tests.csproj",
+        "projectPath": "/Users/jase/Documents/Epicodus/TriangleTracker.Solution/triangletracker.tests/TriangleTracker.Tests.csproj",
         "packagesPath": "/Users/jase/.nuget/packages/",
-        "outputPath": "/Users/jase/Documents/Epicodus/TriangleTracker.Solution/TriangleTracker.Tests/obj/",
+        "outputPath": "/Users/jase/Documents/Epicodus/TriangleTracker.Solution/triangletracker.tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/jase/.nuget/NuGet/NuGet.Config"

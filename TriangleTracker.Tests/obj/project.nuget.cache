@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DMQS6LDiB7yUExsA7yzAgyTioKXGUSNzFaG5Tq8s6xcqa1K2CVA8f+Yz0sWZNga4OL8CC6rK1gHA/bIuu4gZug==",
+  "dgSpecHash": "Eo5qVud5dWmAFzbLkVR4tvQ56SBjmS+Yq8YaPi2Ime4+A1E3cFAVrCs1g9l4ubwtyN+vbcM3lPuGcqs+CTsF9w==",
   "success": true,
-  "projectFilePath": "/Users/jase/Documents/Epicodus/TriangleTracker.Solution/TriangleTracker.Tests/TriangleTracker.Tests.csproj",
+  "projectFilePath": "/Users/jase/Documents/Epicodus/TriangleTracker.Solution/triangletracker.tests/TriangleTracker.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/jase/.nuget/packages/microsoft.codecoverage/15.9.0/microsoft.codecoverage.15.9.0.nupkg.sha512",
     "/Users/jase/.nuget/packages/microsoft.csharp/4.0.1/microsoft.csharp.4.0.1.nupkg.sha512",
