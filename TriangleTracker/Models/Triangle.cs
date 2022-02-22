@@ -4,7 +4,7 @@ namespace Triangle
   {
     public string TriangleType(int a, int b, int c)
     {
-      if (a + b < c || a + c < b)
+      if (a + b < c)
       {
         return "not a triangle";
       } 
