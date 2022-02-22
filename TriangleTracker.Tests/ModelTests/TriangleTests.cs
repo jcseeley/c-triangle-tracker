@@ -24,6 +24,12 @@ namespace Triangle.Tests
       TriangleTracker testTriangle = new TriangleTracker();
       Assert.AreEqual("not a triangle", testTriangle.TriangleType(50, 5, 5));
     }
+    [TestMethod]
+    public void TriangleType_CheckForEquilateral_Equilateral()
+    {
+      TriangleTracker testTriangle = new TriangleTracker();
+      Assert.AreEqual("this is an equilateral triangle", testTriangle.TriangleType(5, 5, 5));
+    }
     
   }
 }

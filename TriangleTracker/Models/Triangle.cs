@@ -7,7 +7,11 @@ namespace Triangle
       if (a + b < c || a + c < b || b + c < a)
       {
         return "not a triangle";
-      } 
+      }
+      // else if (a==b && b==c)
+      // {
+      //   return "this is an equilateral triangle";
+      // }
       else
       {
         return "is a triangle";
