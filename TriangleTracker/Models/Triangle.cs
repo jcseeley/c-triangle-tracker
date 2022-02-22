@@ -16,6 +16,10 @@ namespace Triangle
       {
         return "this is an isosceles triangle";
       }
+      else if (a != b && b != c && a != c)
+      {
+        return "this is a scalene triangle";
+      }
       else
       {
         return "is a triangle";
