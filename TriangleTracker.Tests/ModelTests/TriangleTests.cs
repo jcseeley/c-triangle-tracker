@@ -42,6 +42,12 @@ namespace Triangle.Tests
       TriangleTracker testTriangle = new TriangleTracker();
       Assert.AreEqual("this is an isosceles triangle", testTriangle.TriangleType(5, 8, 5));
     }
+    [TestMethod]
+    public void TriangleType_CheckForIsoscelesA_Isosceles()
+    {
+      TriangleTracker testTriangle = new TriangleTracker();
+      Assert.AreEqual("this is an isosceles triangle", testTriangle.TriangleType(8, 5, 5));
+    }
     
   }
 }
