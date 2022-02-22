@@ -31,10 +31,16 @@ namespace Triangle.Tests
       Assert.AreEqual("this is an equilateral triangle", testTriangle.TriangleType(5, 5, 5));
     }
     [TestMethod]
-    public void TriangleType_CheckForIsosceles_Isosceles()
+    public void TriangleType_CheckForIsoscelesC_Isosceles()
     {
       TriangleTracker testTriangle = new TriangleTracker();
       Assert.AreEqual("this is an isosceles triangle", testTriangle.TriangleType(5, 5, 8));
+    }
+    [TestMethod]
+    public void TriangleType_CheckForIsoscelesB_Isosceles()
+    {
+      TriangleTracker testTriangle = new TriangleTracker();
+      Assert.AreEqual("this is an isosceles triangle", testTriangle.TriangleType(5, 8, 5));
     }
     
   }
