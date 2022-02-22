@@ -9,8 +9,8 @@ namespace Triangle.Tests
     [TestMethod]
     public void TriangleType_CheckForEquilateral_True()
     {
-      TraingleTracker testTriange = new TriangleTracker();
-      Assert.AreEqual(true, testTriange.TriangleType(5, 5, 5));
+      TriangleTracker testTriangle = new TriangleTracker();
+      Assert.AreEqual(true, testTriangle.TriangleType(5, 5, 5));
     }
   }
 }
