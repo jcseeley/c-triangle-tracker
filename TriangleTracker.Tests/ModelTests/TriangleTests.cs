@@ -18,6 +18,12 @@ namespace Triangle.Tests
       TriangleTracker testTriangle = new TriangleTracker();
       Assert.AreEqual("not a triangle", testTriangle.TriangleType(5, 50, 5));
     }
+
+    public void TriangleType_CheckForTriangleALargest_NotATriangle()
+    {
+      TriangleTracker testTriangle = new TriangleTracker();
+      Assert.AreEqual("not a triangle", testTriangle.TriangleType(50, 5, 5));
+    }
     
   }
 }
