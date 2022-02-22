@@ -11,6 +11,9 @@ namespace Triangle
       else if (a==b && b==c)
       {
         return "this is an equilateral triangle";
+      } else if (a == b && a != c)
+      {
+        return "this is an isosceles triangle";
       }
       else
       {
