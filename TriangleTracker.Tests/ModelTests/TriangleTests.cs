@@ -53,7 +53,6 @@ namespace Triangle.Tests
     {
       TriangleTracker testTriangle = new TriangleTracker();
       Assert.AreEqual("this is a scalene triangle", testTriangle.TriangleType(8, 4, 5));
-    }
-    
+    }    
   }
 }

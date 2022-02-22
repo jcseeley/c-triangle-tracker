@@ -22,7 +22,7 @@ namespace Triangle
       }
       else
       {
-        return "is a triangle";
+        return "please enter 3 numbers";
       }
     }
     
