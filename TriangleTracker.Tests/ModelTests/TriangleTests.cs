@@ -7,10 +7,10 @@ namespace Triangle.Tests
   public class ClassNameTests
   {
     [TestMethod]
-    public void TriangleType_CheckForEquilateral_True()
+    public void TriangleType_CheckForEquilateral_NotATriangle()
     {
       TriangleTracker testTriangle = new TriangleTracker();
-      Assert.AreEqual(true, testTriangle.TriangleType(5, 5, 5));
+      Assert.AreEqual("not a triangle", testTriangle.TriangleType(5, 5, 50));
     }
   }
 }
